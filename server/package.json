@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "axios": "^0.18.0",
+    "camelcase-keys": "^5.2.0",
+    "graphql": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "typescript": "^3.4.5"
+  }
+}
